@@ -71,6 +71,9 @@ nav .nav-btn {
     font-weight: 500;
     cursor: pointer;
 }
+.nav-btn:hover{
+    background-color: #F95555;
+}
 
 /* hero section */
 #hero {
@@ -101,6 +104,11 @@ nav .nav-btn {
     font-weight: 500;
     cursor: pointer;
     margin-bottom: 16px;
+
+}
+.primary-btn:hover {
+    background-color: #001931;
+    color: #FFFFFF;
 }
 
 .fa-solid.fa-circle {
@@ -138,10 +146,16 @@ nav .nav-btn {
     cursor: pointer;
     margin-bottom: 16px;
 }
+.btn:hover{
+    background-color: #F95555;
+}
 
 .button {
     background-color: transparent;
     border: 1px solid #FFFFFF;
+}
+.button:hover{
+    background-color: #001931;
 }
 
 .fa-solid.fa-arrow-right {
@@ -153,6 +167,7 @@ nav .nav-btn {
     margin-right: 10px;
 
 }
+/* note section */
 
 .note-container {
     width: 85%;
@@ -162,7 +177,7 @@ nav .nav-btn {
     text-align: center;
 
 }
-
+/* note cards */
 .card-container {
     display: flex;
     justify-content: space-between;
@@ -204,7 +219,7 @@ nav .nav-btn {
     font-size: 16px;
     color: #627382;
 }
-
+/* brain section */
 #brain {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -217,7 +232,7 @@ nav .nav-btn {
     max-width: 1360px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     gap: 60px;
 }
 
@@ -227,7 +242,9 @@ nav .nav-btn {
 
 .brain-contant {
     max-width: 700px;
-    margin: auto 0px;
+     margin: auto 0px; 
+   
+
 }
 
 .brain-contant h4 {
@@ -250,7 +267,7 @@ nav .nav-btn {
     margin-right: 6px;
     color: #30B868;
 }
-
+/* think section */
 #think {
     padding-bottom: 120px;
 }
@@ -277,7 +294,7 @@ nav .nav-btn {
     color: #627382;
     margin-bottom: 24px;
 }
-
+/* footer */
 .footer-container {
     width: 100%;
     max-width: 1600px;
@@ -311,6 +328,7 @@ hr{
     border: none;
     height: 1px;
     max-width: 1360px;
+    margin: 0 auto;
 }
 .footer-copyright{
     color:#FAFAFA;
