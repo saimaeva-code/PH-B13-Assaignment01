@@ -15,7 +15,20 @@ footer {
     width: 100%;
     max-width: 1600px;
 }
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom:16px ;
+    color: #001931;
 
+}
+.section-heading p {
+    color: #627382;
+    font-size: 16px;
+    line-height:20px;
+      margin-bottom:44px ;
+}
+   
 /* main style */
 /* header section */
 header {
@@ -60,8 +73,6 @@ nav .nav-btn {
 
 /* hero section */
 #hero {
-    width: 100%;
-    max-width: 1600px;
     padding-top: 115px ;
     padding-bottom: 180px;
     background: url(./assets/hero-bg.png), #00193180;
@@ -130,4 +141,12 @@ padding: 16px 12px;
 .fa-solid.fa-play{
     margin-right: 10px;
 
+}
+.note-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:40px ;
+    border: #001931 1px solid;
 }
