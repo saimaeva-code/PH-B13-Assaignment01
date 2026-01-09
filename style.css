@@ -54,7 +54,7 @@ nav .nav-btn {
     border-radius: 4px;
     color: #ffffff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -76,7 +76,58 @@ nav .nav-btn {
     max-width: 1360px;
     margin: 0 auto;
     text-align: center;
-        border: 1px solid #b10d0d;
-        
+}
+.primary-btn{
+    padding: 8px 12px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 1000px;
+        color: #469165;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 16px;
+    }
+.fa-solid.fa-circle{
+    margin-right: 8px;
+}
+.hero-container h1{
+  font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.hero-container p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+   gap: 16px;
+}
+.btn{
+padding: 16px 12px;
+    background-color: #469165;
+    border: none;
+    border-radius:4px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.button{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+.fa-solid.fa-arrow-right {
+    margin-left: 10px;
+
+}
+.fa-solid.fa-play{
+    margin-right: 10px;
 
 }
